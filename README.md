@@ -2,7 +2,7 @@
 
 ## Overview
 
-Everyday at Qriously we conduct large numbers of surveys all around the world. In order to help our clients make sense of the data from these surveys, we are building tools to allow them to both visualise and interact with survey data.
+Every day at Qriously we conduct large numbers of surveys all around the world. In order to help our clients make sense of the data from these surveys, we are building tools to allow them to both visualise and interact with survey data.
 
 We would like you to build an *interactive* chart for visualising some survey results. We would like to have the ability to apply filters to the chart (e.g. only displaying results according to the answer demographics).
 
