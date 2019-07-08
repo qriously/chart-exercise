@@ -10,23 +10,27 @@ Please see below for further detailed instructions to guide your submission.
 
 ## Instructions
 
-1. Create a [duplicate of this repository](https://help.github.com/en/articles/duplicating-a-repository.) 
-(*please do not fork this repo because you cannot restrict access to a forked public repository*).
+1. Create a copy of the public `chart-exercise` repository. *Please do not fork the source repo directly as you cannot restrict access to a forked public repository*). 
+ 
+    - [Create a new **private** repository](https://help.github.com/en/articles/creating-a-new-repository) called `chart-exercise`
+    - [Duplicate the source repository](https://help.github.com/en/articles/duplicating-a-repository) (remember to replace your `{exampleuser}` in the command below)
     ```
-    $ git clone --bare https://github.com/qriously/chart-exercise.git
+    $ git clone --bare git@github.com:qriously/chart-exercise.git
     $ cd chart-exercise.git
-    $ git push --mirror https://github.com/exampleuser/chart-exercise.git
+    $ git push --mirror git@github.com:{exampleuser}/chart-exercise.git
     $ cd .. 
     $ rm -rf chart-exercise.git
     ```
-
-1. [Mark the repository as private in Github](https://help.github.com/en/articles/setting-repository-visibility#making-a-repository-private).
-
+    - Clone the duplicated repo
+    ```
+    $ git clone git@github.com:pc256/chart-exercise.git
+    ```
+    
 1. Implement your interactive charting functionality.
 
 1. Include any instructions (or other useful comments) in a clearly marked text file.
 
-1. Commit your changes to your local branch then push to the remote repository.
+1. Commit your changes locally then push to the remote repository.
 
 1. Add the users **pc256** and **MacleanS** as [collaborators to the repository](https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository).
 
