@@ -1,0 +1,15 @@
+{
+  "name": "chart-exercise",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "Qriously Interactive Chart Exercise",
+  "devDependencies": {
+    "express": "^4.17.1"
+  },
+  "dependencies": {
+  },
+  "scripts": {
+    "run": "node src/server/app.js"
+  }
+}
