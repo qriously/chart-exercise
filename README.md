@@ -23,7 +23,7 @@ Please see below for further detailed instructions to guide your submission.
     ```
     - Clone the duplicated repo
     ```
-    $ git clone git@github.com:pc256/chart-exercise.git
+    $ git clone git@github.com:{exampleuser}/chart-exercise.git
     ```
     
 1. Implement your interactive charting functionality.
