@@ -3,9 +3,15 @@
  */
 
 const express = require('express');
+const cors = require('cors');
 const fs = require('fs');
 
 const app = express();
+
+/**
+ * Enable basic CORS for backend
+ */
+app.use(cors());
 
 app.get('/survey', (req, res) => {
     try {
