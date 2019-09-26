@@ -2,9 +2,9 @@
 
 ## Overview
 
-Every day at Qriously we conduct large numbers of surveys all around the world. In order to help our clients make sense of the data from these surveys, we are building tools to allow them to both visualise and interact with survey data.
-
-We would like you to build an *interactive* chart for visualising some survey results. We would like to have the ability to apply filters to the chart (e.g. only displaying results according to the answer demographics).
+Every day at Qriously we conduct large numbers of surveys all around the world. 
+In order to help our clients make sense of the data from these surveys, we are building tools to allow them to both visualise and interact with survey data. 
+We would like you to build an *interactive* chart for visualising some survey results.
 
 Please see below for further detailed instructions to guide your submission.
 
@@ -26,7 +26,8 @@ Please see below for further detailed instructions to guide your submission.
     $ git clone git@github.com:{exampleuser}/chart-exercise.git
     ```
     
-1. Implement your interactive charting functionality.
+1. Implement your interactive charting functionality. 
+___Ideally the application itself will have some controls (buttons/checkboxes etc.) to govern what data the chart is showing, so the user can change what they are looking at.___ 
 
 1. Include any instructions (or other useful comments) in a clearly marked text file.
 
@@ -36,7 +37,9 @@ Please see below for further detailed instructions to guide your submission.
 
 1. Drop us an email letting us know you've finished.
 
-## Other Useful Information 
+## Useful Information
+
+Feel free to use any frameworks/libraries, but this is by no means required! 
 
 To assist you we have provided an endpoint which you can call to return the survey data. This can be run in the terminal as follows ...
 
@@ -57,12 +60,8 @@ We suggest using an existing chart library (e.g. [chart.js](https://www.chartjs.
  
 The submission should be:
 
-- Written in modern Javascript or Typescript.
-
+- Written in modern (ES6) Javascript or Typescript.
 - Structured in a clear manner.
-
-- Should render sensibly on a mobile device.
-
 - Be visually appealing.
 
 ### Happy Coding!
